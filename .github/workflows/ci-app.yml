@@ -42,6 +42,7 @@ jobs:
           path: "."
           fail-build: false
           output-format: table
+  
   docker-build:
     name: Build Docker image
     outputs:
